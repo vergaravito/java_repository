@@ -24,6 +24,7 @@ public class DispatchServlet extends HttpServlet {
 		response.setContentType("text/html;charset=UTF-8");
         PrintWriter pr = response.getWriter();
         String out="";
+        
 		try{
 			if((nextJSP!=null||!nextJSP.equals(""))&&(!nextJSP.equals("getImages"))){
 				response.sendRedirect(request.getContextPath() + "/web/"+nextJSP);

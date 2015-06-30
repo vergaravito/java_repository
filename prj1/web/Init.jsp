@@ -1,4 +1,3 @@
-<% String msg = (String) request.getAttribute("message"); %>
 <html>
 	<head>
 	<script type="text/javascript">

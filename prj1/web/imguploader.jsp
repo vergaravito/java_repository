@@ -2,9 +2,6 @@
 <html>
 	<head>
 	<script type="text/javascript">
-		function imgUploader() {
-			window.open("/prj1/DispatchServlet?jspUrl=imguploader.jsp");
-		}
 		function imgViewer()  {
 			window.open("/prj1/DispatchServlet?jspUrl=imgviewer.jsp");
 		}
@@ -85,8 +82,6 @@
 					</div>
 					<button  class="btn" type="button" onClick="javascript:send();">Upload File</button>
 				</form>
-				
-		<button class="btn" onClick="javascript:imgUploader();">Images Uploader</button>
 				<button class="btn" onClick="javascript:imgViewer();">Images Viewer</button>
 			</div>
 		</body>
